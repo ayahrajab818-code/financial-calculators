@@ -17,7 +17,8 @@ public class mortageCalculator {
         int years = scanner.nextInt();
 
         //Convert to decimal
-        double i = annualRate / 100 / 12;
+        double r = annualRate / 100 
+        double i = r / 12;
         int n = years * 12;
 
 
